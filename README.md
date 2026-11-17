@@ -1,6 +1,6 @@
 # Awesome-Human-Resources-Management-HRMS
 
-# Top Human Resources Management (HRMS) Ecosystem
+## Top Human Resources Management (HRMS) Ecosystem
 
 **Curated List of SaaS Platforms & Open-Source GitHub Projects**  
 *Focused on Employee Lifecycle, Payroll Automation & Self-Hosted HR Platforms*  
