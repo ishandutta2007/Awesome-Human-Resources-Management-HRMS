@@ -1,76 +1,182 @@
-# Awesome-Human-Resources-Management-HRMS
+<div align="center">
 
-## Top Human Resources Management (HRMS) Ecosystem
+<a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS">
+  <img src="assets/banner.svg" alt="Awesome HRMS Ecosystem Banner" width="100%" />
+</a>
 
-**Curated List of SaaS Platforms & Open-Source GitHub Projects**  
-*Focused on Employee Lifecycle, Payroll Automation & Self-Hosted HR Platforms*  
-**Last updated: March 2026**
+# 🏢 Awesome Human Resources Management (HRMS) & Payroll Ecosystem 💼
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Human Resources Management (HRMS)**. These tools help organizations manage the full employee lifecycle—from hiring and onboarding through payroll, performance, and exit—covering everything from polished commercial suites to open-source platforms that eliminate per-employee licensing.
+<p align="center">
+  <strong>Curated Directory of Enterprise SaaS Suites, Modern Cloud HRIS, and Self-Hosted Open-Source Payroll &amp; Workforce Platforms</strong>
+</p>
 
-**Examples** include BambooHR, Workday HCM, Rippling, Gusto, Personio, Frappe HR, Horilla HR, and OrangeHRM (the category leaders).
-
-**Open-source emphasis**: This section highlights every major active project for self-hosted HRMS, open-source payroll engines, and community-driven employee management—ideal for organizations seeking data sovereignty and avoiding per-employee SaaS fees that compound across headcount. The open-source landscape is genuinely mature: **Frappe HR** provides a complete HRMS with 13+ modules integrated with ERPNext accounting [citation:2][citation:9], **Horilla HR** offers deep Indian statutory compliance out of the box [citation:11], and **OrangeHRM** remains the most widely recognized free and open-source HR platform [citation:3].
-
-Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Human Resources Management Software (HRMS / HCM) market is estimated between **$20 billion and $27 billion**, compounding at 11–14% CAGR toward an estimated $55+ billion over the next decade. Structurally, the industry exhibits a bifurcated competitive dynamic: the top enterprise tier is moderately consolidated around comprehensive enterprise suites (e.g., Workday, SAP SuccessFactors, Oracle HCM), while the mid-market and SMB segments remain highly fragmented across regional compliance tools, modular all-in-one HR clouds, and specialized point solutions.
-
-## SaaS/Hosted Platforms
-
-| Product | Scale (Revenue / Valuation) | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-----------------------------|-------------|-------------------|--------------------------|
-| **[Workday HCM](https://www.workday.com/)** | ~$45B–$48B Market Cap (~$9.55B FY25 Revenue) | Enterprise HCM standard with core HR, payroll, and talent management. FSE-based pricing weights worker types differently; count overages of 8–18% above clean census are common. | Entry contracts start at ~$35–$42 PEPM for enterprise scale (or ~$80–$100+ PEPM for sub-1k employee tiers; multi-year minimum) | No free tier or trial for Core HCM; scheduled interactive demo via sales only |
-| **[Rippling](https://www.rippling.com/)** | $16.8B Valuation (~$1.0B ARR) | Unified HR, payroll, benefits, devices, and apps. Modular pricing architecture allows companies to scale functionality as needed. | Core platform starts at $8/employee/month (plus ~$35–$40/month platform base fee) | No public free trial for regular accounts; qualified early-stage startups can apply for up to 6 months free |
-| **[Zoho People](https://www.zoho.com/people/)** | ~$12.5B Implied Valuation (~$1.5B Revenue) | HRIS within the Zoho ecosystem with leave, attendance, and performance modules. | **$1.25/employee/month** (Essential HR plan, billed annually) or $1.50/employee/month (monthly billing) | **Free tier forever for up to 5 users**; paid plans offer a **30-day free trial** |
-| **[Gusto](https://gusto.com/)** | $9.3B Valuation (~$1.0B TTM Revenue) | Payroll-first HR with employee self-service for pay stubs, tax documents, and benefits. Month-to-month, cancel anytime. | **$49/month base fee + $6/employee/month** (Simple plan) or $35/month + $6/contractor for contractor-only | Free account setup and dashboard access with no time limit; billed only upon running first live payroll |
-| **[Personio](https://www.personio.com/)** | $8.5B Valuation (~$350M–$430M ARR) | European HRIS with employee self-service for SMBs. Multi-year commitments with modular add-ons. | Core plan starts at **€7.60–€9.00 (~$8.00–$9.50)/employee/month** (annual contract; onboarding fee applies) | **14-day free trial** (full access with sample data, no credit card required) |
-| **[BambooHR](https://www.bamboohr.com/)** | $1.0B+ Valuation (~$270M–$350M ARR) | SMB-focused HRIS with employee records, time-off tracking, and reporting. Month-to-month available with automatic volume discounts. | **$10/employee/month** (Core plan; optional add-ons like Payroll and Time Tracking extra) | **7-day free trial** (unlimited access to core HR features, no credit card required) |
-
-## Open-Source GitHub Projects
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Frappe HR](https://github.com/frappe/hrms)** | [![Stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | **The most complete open-source HRMS with full payroll and ERPNext integration.** **GPL-3.0**, Python/Frappe Framework . **13+ modules**: employee lifecycle, onboarding, leave, attendance with geolocation, expense claims with multi-level approvals, **performance management with KRAs**, and **payroll & taxation with salary structures and income tax slabs** . **Mobile app** for leave approvals and check-in/check-out . **Seamless integration with ERPNext accounting**—employee expenses flow directly into the general ledger . **Trade-off**: setup complexity is higher than dedicated HR-only tools; some payroll localizations require community modules . **Best for growing teams (20–200 employees)** wanting HR, payroll, and business operations on a single platform [citation:1][citation:2]. |
-| **[Horilla HR](https://github.com/horilla/horilla-hr)** | [![Stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers) | **The strongest open-source HRMS for Indian statutory compliance.** **Django 5.2**, Tailwind CSS, HTMX . **Built-in Indian compliance**: **PF, ESI, TDS, professional tax, gratuity, Form 16, and all statutory filings**—no plugins or consultants needed . **40+ modules** including CRM, advanced payroll with multi-currency, biometric integration (ZKTeco/Anviz), 360° appraisals, training/LMS, and employee self-service . **REST API v2** with OpenAPI docs; multi-company isolation . **Self-host for free** or managed from **$7/user/month** . **Best for Indian organizations** needing compliance-ready HRMS without enterprise pricing [citation:4][citation:11]. |
-| **[OrangeHRM](https://github.com/orangehrm/orangehrm)** | [![Stars](https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white)](https://github.com/orangehrm/orangehrm/stargazers) | **The most established free and open-source HRMS.** **Starter (Open Source)** is completely free with core HR features: employee management, leave, attendance, and reporting . **Best for organizations wanting a proven, widely-deployed HR foundation**—but note that advanced features (recruitment, performance) are part of the paid Advanced tier [citation:3][citation:10]. |
-| **[Euron Open HRMS](https://github.com/euron-sde-team/euron-open-hrms)** | [![Stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-hrms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-hrms/stargazers) | **The most technically sophisticated open-source HRMS with multi-tenancy and PII encryption.** **Payroll in 24 countries** with country rule packs, salary structures, and payslip PDFs with QR verification . **PII sealed with AES-256-GCM** before reaching Postgres—each workspace has its own data key wrapped by KMS; purging a workspace destroys its key, making data unreadable even in backups . **Workspace-scoped repository layer** enforces tenant isolation at the query level; integration tests call every route as one workspace's admin against another's records . **Operator console** for fleet metrics and workspace lifecycle . **Docker Compose quickstart** with local AWS emulation (Floci) . **Best for platform teams and MSPs** needing multi-tenant HRMS with cryptographic data isolation [citation:8][citation:15]. |
-
-### Additional Strong Open-Source Options
-
-| Project | Star Badge | Description |
-|---------|------------|-------------|
-| **[Sentrifugo](https://github.com/sentrifugo/sentrifugo)** | — | **Completely free open-source HRMS with deep configurability.** No paid tiers or feature gates . Employee management, leave with accrual policies, performance appraisals with goal setting, background checks, discipline management, and exit interviews . **Configurable approval chains and document types without code** . **Trade-off**: on-premise deployment primary; mobile experience limited; community less active than OrangeHRM [citation:6][citation:14]. |
-| **[Odoo HR (Community)](https://github.com/odoo/odoo)** | — | **HR module within the Odoo Community ERP.** Employee records, recruitment, time-off, and appraisals . **Tight integration with Odoo Accounting, Project, and CRM** . **Trade-off**: **Community edition lacks payroll and some advanced HR features**—those require Odoo Enterprise (~$24/user/month) . **Best for teams already on Odoo** wanting HR integrated with business operations [citation:14]. |
-| **[IceHRM](https://github.com/icehrm/icehrm)** | — | **Modern open-source HRMS with a polished interface.** Employee management, leave, attendance, and **optional payroll module** (paid add-on, ~$2/employee/month) . **Best for teams wanting a clean UI** with the option to add payroll without leaving the platform [citation:14]. |
-
-**Frameworks for building custom systems**: Choose **Frappe HR** for a complete HRMS + payroll integrated with ERPNext accounting , **Horilla HR** for Indian compliance-ready HRMS with biometric support , or **Euron Open HRMS** for multi-tenant deployments with cryptographic PII isolation  —all without per-employee licensing.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- HRMS platforms handle sensitive employee PII including bank details, tax IDs, and salary data; enforce encryption at rest and in transit, role-based access, and compliance with applicable employment and data protection regulations.
-- **Open-source HRMS options have different strengths and trade-offs.** **Frappe HR is the most complete all-in-one option** with payroll and ERPNext integration, but setup is more complex than dedicated HR tools . **Horilla HR is the strongest for Indian compliance** with PF, ESI, TDS, and Form 16 built in—and its **$7/user/month managed option** is highly competitive . **OrangeHRM's free Starter edition is genuinely free** but limited compared to its paid Advanced tier . **Euron Open HRMS is the most technically advanced** with multi-tenancy and AES-256-GCM PII encryption, but requires Docker/AWS expertise . **IceHRM's payroll is a paid add-on**, not open-source . **Validate whether you need payroll (Frappe HR, Horilla), compliance (Horilla for India), multi-tenancy (Euron), or a simple free foundation (OrangeHRM Starter)** before committing.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Human-Resources-Management-HRMS?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Human-Resources-Management-HRMS?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow"/></a>
+</p>
 
 ---
 
-**Made for HR administrators, people operations teams, and organizations building employee management infrastructure.**  
-Let's make human resources management more open, compliant, and employee-centric.
+<p align="center">
+  <a href="#-sector-overview--market-dynamics">Sector Overview</a> •
+  <a href="#-saashosted-platforms">SaaS Platforms</a> •
+  <a href="#-open-source-github-projects">Open-Source HRMS</a> •
+  <a href="#-how-to-contribute">Contribute</a> •
+  <a href="#-star-history">Star History</a> •
+  <a href="#-support--sponsorship">Support</a> •
+  <a href="#-disclaimer">Disclaimer</a>
+</p>
+
+</div>
+
+---
+
+## 📌 Executive Summary
+
+This repository is a production-grade, SEO-optimized index tracking premier **SaaS platforms** and **autonomous open-source projects** in the **Human Resources Management (HRMS)**, **Human Capital Management (HCM)**, **HRIS**, and **Payroll Automation** ecosystem.
+
+These platforms empower modern People Operations (PeopleOps), HR administrators, IT departments, and engineering teams to orchestrate the complete employee lifecycle:
+- 🎯 **Talent Acquisition & ATS**: Multi-stage job requisitions, candidate pipeline management, structured interviews, and digital offer rollout.
+- 👥 **Core HR & Personnel Information Management (PIM)**: Employee record databases, hierarchical org charts, self-service portals, document repositories, and digital contracts.
+- ⏱️ **Time, Attendance & Leave**: Geolocation check-ins, biometric device integrations (ZKTeco, Anviz), shift scheduling, PTO accruals, and audit trails.
+- 💳 **Payroll, Taxation & Compliance**: Automated salary computations, multi-currency salary structures, statutory deductions (PF, ESI, TDS, Form 16, FICA, ERISA), and payslip generation.
+- 📈 **Performance & Development**: OKRs, KRAs, continuous feedback, 360-degree appraisal cycles, and integrated learning management systems (LMS).
+- 🛡️ **Data Sovereignty & Self-Hosting**: Enterprise-ready open-source codebases enabling self-hosted, air-gapped HR infrastructure with zero per-employee recurring fees.
+
+---
+
+## 🧭 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#-saashosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global Human Resources Management Software (HRMS / HCM) market represents a rapidly growing software category valued between **$20 billion and $27 billion**, compounding at a **CAGR of 11% to 14%** toward an anticipated valuation exceeding **$55+ billion** over the next decade.
+
+The sector exhibits a bifurcated competitive structure:
+* **Enterprise Tier (Moderately Consolidated / Oligopolistic)**: Global multinational corporations with multi-jurisdiction compliance and complex accounting layers rely heavily on consolidated suites such as Workday, SAP SuccessFactors, and Oracle HCM Cloud, which command a dominant share of enterprise spend.
+* **Mid-Market & SMB Tier (Highly Fragmented)**: For businesses below 5,000 employees, the space is vibrant and fiercely contested by cloud-native all-in-one HRIS platforms (e.g., Rippling, Gusto, BambooHR, Personio, Zoho People), modular vertical tools, and self-hosted open-source software (e.g., Frappe HR, Horilla, Odoo). Low barriers to SaaS deployment keep this tier exceptionally competitive rather than "winner-take-all."
+
+---
+
+## ☁️ SaaS/Hosted Platforms
+
+The following SaaS suites are ranked in descending order based on enterprise company scale (market capitalization, valuation, and annual revenue).
+
+| Product | Scale (Revenue / Valuation) | Core Capabilities & Description | Pricing (Starting) | Free Tier / Trial Limits |
+|---------|-----------------------------|---------------------------------|-------------------|--------------------------|
+| **[Workday HCM](https://www.workday.com/)** | ~$45B–$48B Market Cap (~$9.55B FY25 Revenue) | 🌐 Enterprise HCM benchmark spanning core HR, global payroll, workforce planning, talent optimization, and analytics. FSE-based pricing weights worker tiers differently. | Entry contracts start at ~$35–$42 PEPM for enterprise scale (or ~$80–$100+ PEPM for sub-1k employee tiers; multi-year minimum) | No free tier or trial for Core HCM; scheduled interactive demo via sales only |
+| **[Rippling](https://www.rippling.com/)** | $16.8B Valuation (~$1.0B ARR) | ⚡ Compound workforce platform unifying HRIS, global payroll, benefits, corporate spend cards, and IT device/app provisioning into a single employee database. | Core platform starts at $8/employee/month (plus ~$35–$40/month platform base fee) | No public free trial for regular accounts; qualified early-stage startups can apply for up to 6 months free |
+| **[Zoho People](https://www.zoho.com/people/)** | ~$12.5B Implied Valuation (~$1.5B Revenue) | 📊 Cloud HRIS within the Zoho ecosystem featuring employee onboarding, attendance, time tracking, leave approvals, and employee self-service. | **$1.25/employee/month** (Essential HR plan, billed annually) or $1.50/employee/month (monthly billing) | **Free tier forever for up to 5 users**; paid plans offer a **30-day free trial** |
+| **[Gusto](https://gusto.com/)** | $9.3B Valuation (~$1.0B TTM Revenue) | 💰 Small-business payroll and benefits platform with automated local/federal tax filings, direct deposits, health insurance, and 401(k) integrations. | **$49/month base fee + $6/employee/month** (Simple plan) or $35/month + $6/contractor for contractor-only | Free account setup and dashboard access with no time limit; billed only upon running first live payroll |
+| **[Personio](https://www.personio.com/)** | $8.5B Valuation (~$350M–$430M ARR) | 🇪🇺 European HRIS designed for SMBs, offering unified personnel records, absence management, preliminary payroll, and recruitment workflows. | Core plan starts at **€7.60–€9.00 (~$8.00–$9.50)/employee/month** (annual contract; onboarding fee applies) | **14-day free trial** (full access with sample data, no credit card required) |
+| **[BambooHR](https://www.bamboohr.com/)** | $1.0B+ Valuation (~$270M–$350M ARR) | 🎋 Leading SMB-focused HR platform with intuitive personnel files, time-off approvals, employee satisfaction (eNPS), and visual org charts. | **$10/employee/month** (Core plan; optional add-ons like Payroll and Time Tracking extra) | **7-day free trial** (unlimited access to core HR features, no credit card required) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Self-hosted and open-source HRMS software eliminates compounding per-seat SaaS costs, guarantees strict local data sovereignty under GDPR/statutory rules, and provides customizability across internal databases.
+
+The projects below are ranked in descending order by **GitHub Star Count**. Every badge links directly to that repository's stargazer network.
+
+| Project | Stars | Tech Stack | License | Description & Key Modules |
+|---------|-------|------------|---------|---------------------------|
+| **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript | LGPL-3.0 | 🌟 **Comprehensive Business Suite with Core HR.** Features employee profiles, department hierarchies, leave requests, attendance, timesheets, and basic recruitment. Seamlessly connects with Odoo CRM, Project, and Accounting. Advanced enterprise payroll requires proprietary modules. |
+| **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, JavaScript (Frappe Framework) | GPL-3.0 | 🚀 **Flagship Open-Source ERP & Enterprise HR System.** Complete ERP platform with comprehensive human resources management: employee lifecycles, recruitment, job requisitions, training, appraisals, asset assignments, and accounting-integrated expense claims. |
+| **[Frappe HR](https://github.com/frappe/hrms)** | [![Stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | Python, Vue.js, Frappe | GPL-3.0 | 🏆 **The Gold Standard Dedicated Open-Source HRMS & Payroll.** 13+ production modules: employee onboarding, geolocation & biometric attendance, multi-tier expense claim workflows, KRA performance appraisals, and complete payroll processing with customizable tax slabs. Includes native mobile/PWA interfaces. |
+| **[Gauzy](https://github.com/ever-co/gauzy)** | [![Stars](https://img.shields.io/github/stars/ever-co/gauzy?style=social&color=white)](https://github.com/ever-co/gauzy/stargazers) | TypeScript, Angular, NestJS | AGPL-3.0 | ⏱️ **Modern ERP, HRM & Workforce Management Platform.** Tailored for distributed remote teams and agencies. Includes multi-tenant time tracking, employee scheduling, expense claims, invoice generation, contractor management, and project profitability analytics. |
+| **[Horilla HR](https://github.com/horilla/horilla-hr)** | [![Stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers) | Python (Django 5), Tailwind CSS, HTMX | Apache-2.0 | 🇮🇳 **Modern HRMS with Built-in Indian Statutory Compliance.** 40+ out-of-the-box modules: PF, ESI, TDS, Form 16, professional tax, biometric hardware integration (ZKTeco/Anviz), visual drag-and-drop recruitment pipelines, 360° appraisals, and asset tracking with multi-company isolation. |
+| **[OrangeHRM](https://github.com/orangehrm/orangehrm)** | [![Stars](https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white)](https://github.com/orangehrm/orangehrm/stargazers) | PHP, MySQL | GPL-2.0 | 🏛️ **The Pioneer Free & Open-Source HRMS.** Battle-tested platform offering Personnel Information Management (PIM), employee self-service dashboards, leave management, time tracking, and customizable reporting. Advanced modules available in commercial editions. |
+| **[OpenCATS](https://github.com/opencats/OpenCATS)** | [![Stars](https://img.shields.io/github/stars/opencats/OpenCATS?style=social&color=white)](https://github.com/opencats/OpenCATS/stargazers) | PHP, JavaScript, MySQL | GPL-2.0 | 🎯 **Specialized Open-Source Applicant Tracking System (ATS).** Designed for internal talent acquisition teams and recruiting agencies. Manages candidate pipelines, resume parsing, job orders, interview logs, candidate ratings, and vacancy listings. |
+| **[IceHrm](https://github.com/gamonoid/icehrm)** | [![Stars](https://img.shields.io/github/stars/gamonoid/icehrm?style=social&color=white)](https://github.com/gamonoid/icehrm/stargazers) | PHP, JavaScript | Apache-2.0 | ❄️ **Lightweight Modular HR & Attendance Platform.** Clean responsive interface covering employee database management, leave accrual policies, attendance tracking, document generation, and digital signature requests. |
+| **[Euron Open HRMS](https://github.com/euron-sde-team/euron-open-hrms)** | [![Stars](https://img.shields.io/github/stars/euron-sde-team/euron-open-hrms?style=social&color=white)](https://github.com/euron-sde-team/euron-open-hrms/stargazers) | Python, FastAPI, Docker | MIT | 🔐 **Enterprise Multi-Tenant HRMS with Encrypted PII.** Engineered for platform teams and MSPs. Features country payroll rule packs across 24 countries, QR-verified payslip PDFs, and workspace cryptographic data isolation where PII is sealed with AES-256-GCM before storage. |
+| **[Sentrifugo](https://github.com/sentrifugo/sentrifugo)** | [![Stars](https://img.shields.io/github/stars/sentrifugo/sentrifugo)](https://github.com/sentrifugo/sentrifugo/stargazers) | PHP, MySQL | GPL-3.0 | 📋 **Configurable On-Premises HR Solution.** End-to-end personnel management without feature gating: employee records, performance appraisals, background verification workflows, disciplinary incident tracking, policy management, and exit interview modules. |
+
+---
+
+## 🛠️ Architecture & Deployment Guide: Choosing the Right Solution
+
+```
+                            ┌────────────────────────────────────────┐
+                            │ What is your primary HR infrastructure │
+                            │              requirement?              │
+                            └───────────────────┬────────────────────┘
+                                                │
+                 ┌──────────────────────────────┴──────────────────────────────┐
+                 ▼                                                             ▼
+     ┌───────────────────────┐                                     ┌───────────────────────┐
+     │ Enterprise Cloud SaaS │                                     │ Self-Hosted / FOSS    │
+     │ Zero Ops / Managed    │                                     │ Data Sovereignty/Zero │
+     └───────────┬───────────┘                                     │ Recurring Seat Fees   │
+                 │                                                 └───────────┬───────────┘
+       ┌─────────┴─────────┐                                                   │
+       ▼                   ▼                                   ┌───────────────┴───────────────┐
+┌─────────────┐     ┌─────────────┐                            ▼                               ▼
+│ Enterprise  │     │ SMB / Scale │                  ┌───────────────────┐           ┌───────────────────┐
+│ Workday     │     │ Rippling    │                  │ Complete Payroll  │           │ Agency / Remote   │
+│ HCM         │     │ Gusto / Zoho│                  │ & Core HR Suite   │           │ Time & Resource   │
+└─────────────┘     └─────────────┘                  └─────────┬─────────┘           └─────────┬─────────┘
+                                                               │                               │
+                                                   ┌───────────┴───────────┐                   ▼
+                                                   ▼                       ▼             ┌───────────┐
+                                            ┌─────────────┐         ┌─────────────┐      │ Gauzy     │
+                                            │ Frappe HR   │         │ Horilla HR  │      └───────────┘
+                                            │ (Global/ERP)│         │ (India Spec)│
+                                            └─────────────┘         └─────────────┘
+```
+
+---
+
+## 🤝 How to Contribute
+
+Contributions from HR practitioners, PeopleOps managers, and software developers are warmly welcome!
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a new topic branch: `git checkout -b feature/add-new-hrms-tool`.
+3. 📝 Update `README.md` following the exact table structure (Name, Star Badge linking to stargazers, Tech Stack, License, and factual description).
+4. ✅ Ensure links are active and pricing/open-source claims are verifiable.
+5. 🚀 Push to your branch and open a **Pull Request**.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Human-Resources-Management-HRMS&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Human-Resources-Management-HRMS&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If this curated repository saved you hours evaluating HR tools, choosing software for your company, or architecting a self-hosted HRMS deployment, please consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to amplify visibility.
+- 🍴 **Fork and share** it with your PeopleOps, HR tech, and engineering communities.
+- ☕ **Buy a coffee & sponsor ongoing maintenance** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support enables continuous tracking, benchmarking, and curation of the modern HRMS ecosystem!
+
+---
+
+## ⚖️ Disclaimer
+
+- This curated list is maintained for educational and technical evaluation purposes; inclusion does not constitute a commercial endorsement.
+- HRMS, HRIS, and Payroll platforms process sensitive employee Personally Identifiable Information (PII), salary history, banking accounts, and national tax identifiers. Always enforce TLS encryption in transit, AES encryption at rest, stringent role-based access control (RBAC), and strict compliance with local regulations (GDPR, HIPAA, ERISA, Indian IT Act, SOC 2).
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ for HR administrators, people operations teams, and engineers architecting workforce systems worldwide.</sub>
+</div>
