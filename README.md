@@ -15,21 +15,26 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 Contributions welcome! Open an PR to add/update entries. Keep descriptions factual and link to official sites.
 
 ## Table of Contents
-- [SaaS/Hosted Platforms](#saas-products)
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saashosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
 - [How to Contribute](#how-to-contribute)
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
+
+The global Human Resources Management Software (HRMS / HCM) market is estimated between **$20 billion and $27 billion**, compounding at 11–14% CAGR toward an estimated $55+ billion over the next decade. Structurally, the industry exhibits a bifurcated competitive dynamic: the top enterprise tier is moderately consolidated around comprehensive enterprise suites (e.g., Workday, SAP SuccessFactors, Oracle HCM), while the mid-market and SMB segments remain highly fragmented across regional compliance tools, modular all-in-one HR clouds, and specialized point solutions.
+
 ## SaaS/Hosted Platforms
 
-| Product | Description | Pricing (Starting) | Free Tier / Trial Limits |
-|---------|-------------|-------------------|--------------------------|
-| **[Workday HCM](https://www.workday.com/)** | Enterprise HCM standard with core HR, payroll, and talent management. FSE-based pricing weights worker types differently; count overages of 8–18% above clean census are common. | Quote-only (FSE-based enterprise contract) | No free tier; demo via sales |
-| **[BambooHR](https://www.bamboohr.com/)** | SMB-focused HRIS with employee records, time-off tracking, and reporting. **Core: $10/employee/month**; Pro: $17; Elite: $25. Month-to-month available with automatic volume discounts. | Core: **$10/employee/month**; Pro: $17; Elite: $25 | No free tier; demo via sales |
-| **[Rippling](https://www.rippling.com/)** | Unified HR, payroll, benefits, devices, and apps. **Starting at $8/user/month**; modular pricing means you pay for what you enable. | **$8/user/month** (base) | No free tier; demo via sales |
-| **[Gusto](https://gusto.com/)** | Payroll-first HR with employee self-service for pay stubs, tax documents, and benefits. **Month-to-month, cancel anytime**. | Quote-only (tiered by plan and employee count) | No free tier; demo via sales |
-| **[Personio](https://www.personio.com/)** | European HRIS with employee self-service for SMBs. **15–30% discounts achievable** for 100–200 employees with multi-year terms. | Quote-only (Core/Professional/Enterprise) | No free tier; demo via sales |
-| **[Zoho People](https://www.zoho.com/people/)** | HRIS within the Zoho ecosystem with leave, attendance, and performance modules. **5 employees free forever**. | Basic: **¥105/employee/year**; Professional: ¥168; Premium: ¥252 | **Free**: up to 5 employees; **30-day trial** |
+| Product | Scale (Revenue / Valuation) | Description | Pricing (Starting) | Free Tier / Trial Limits |
+|---------|-----------------------------|-------------|-------------------|--------------------------|
+| **[Workday HCM](https://www.workday.com/)** | ~$45B–$48B Market Cap (~$9.55B FY25 Revenue) | Enterprise HCM standard with core HR, payroll, and talent management. FSE-based pricing weights worker types differently; count overages of 8–18% above clean census are common. | Entry contracts start at ~$35–$42 PEPM for enterprise scale (or ~$80–$100+ PEPM for sub-1k employee tiers; multi-year minimum) | No free tier or trial for Core HCM; scheduled interactive demo via sales only |
+| **[Rippling](https://www.rippling.com/)** | $16.8B Valuation (~$1.0B ARR) | Unified HR, payroll, benefits, devices, and apps. Modular pricing architecture allows companies to scale functionality as needed. | Core platform starts at $8/employee/month (plus ~$35–$40/month platform base fee) | No public free trial for regular accounts; qualified early-stage startups can apply for up to 6 months free |
+| **[Zoho People](https://www.zoho.com/people/)** | ~$12.5B Implied Valuation (~$1.5B Revenue) | HRIS within the Zoho ecosystem with leave, attendance, and performance modules. | **$1.25/employee/month** (Essential HR plan, billed annually) or $1.50/employee/month (monthly billing) | **Free tier forever for up to 5 users**; paid plans offer a **30-day free trial** |
+| **[Gusto](https://gusto.com/)** | $9.3B Valuation (~$1.0B TTM Revenue) | Payroll-first HR with employee self-service for pay stubs, tax documents, and benefits. Month-to-month, cancel anytime. | **$49/month base fee + $6/employee/month** (Simple plan) or $35/month + $6/contractor for contractor-only | Free account setup and dashboard access with no time limit; billed only upon running first live payroll |
+| **[Personio](https://www.personio.com/)** | $8.5B Valuation (~$350M–$430M ARR) | European HRIS with employee self-service for SMBs. Multi-year commitments with modular add-ons. | Core plan starts at **€7.60–€9.00 (~$8.00–$9.50)/employee/month** (annual contract; onboarding fee applies) | **14-day free trial** (full access with sample data, no credit card required) |
+| **[BambooHR](https://www.bamboohr.com/)** | $1.0B+ Valuation (~$270M–$350M ARR) | SMB-focused HRIS with employee records, time-off tracking, and reporting. Month-to-month available with automatic volume discounts. | **$10/employee/month** (Core plan; optional add-ons like Payroll and Time Tracking extra) | **7-day free trial** (unlimited access to core HR features, no credit card required) |
 
 ## Open-Source GitHub Projects
 
