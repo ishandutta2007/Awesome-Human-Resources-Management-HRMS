@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Human-Resources-Management-HRMS?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Human-Resources-Management-HRMS?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Human-Resources-Management-HRMS?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Human-Resources-Management-HRMS/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow"/></a>
@@ -90,9 +90,9 @@ The following SaaS suites are ranked in descending order based on enterprise com
 
 Self-hosted and open-source HRMS software eliminates compounding per-seat SaaS costs, guarantees strict local data sovereignty under GDPR/statutory rules, and provides customizability across internal databases.
 
-The projects below are ranked in descending order by **GitHub Star Count**. Every badge links directly to that repository's stargazer network.
+The projects below are ranked in descending order by **GitHub Stars_Count**. Every badge links directly to that repository's stargazer network.
 
-| Project | Stars | Tech Stack | License | Description & Key Modules |
+| Project | GitHub_Stars | Tech Stack | License | Description & Key Modules |
 |---------|-------|------------|---------|---------------------------|
 | **[Odoo](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | Python, JavaScript | LGPL-3.0 | 🌟 **Comprehensive Business Suite with Core HR.** Features employee profiles, department hierarchies, leave requests, attendance, timesheets, and basic recruitment. Seamlessly connects with Odoo CRM, Project, and Accounting. Advanced enterprise payroll requires proprietary modules. |
 | **[ERPNext](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | Python, JavaScript (Frappe Framework) | GPL-3.0 | 🚀 **Flagship Open-Source ERP & Enterprise HR System.** Complete ERP platform with comprehensive human resources management: employee lifecycles, recruitment, job requisitions, training, appraisals, asset assignments, and accounting-integrated expense claims. |
@@ -146,7 +146,7 @@ Contributions from HR practitioners, PeopleOps managers, and software developers
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create a new topic branch: `git checkout -b feature/add-new-hrms-tool`.
-3. 📝 Update `README.md` following the exact table structure (Name, Star Badge linking to stargazers, Tech Stack, License, and factual description).
+3. 📝 Update `README.md` following the exact table structure (Name, Stars_Badge linking to stargazers, Tech Stack, License, and factual description).
 4. ✅ Ensure links are active and pricing/open-source claims are verifiable.
 5. 🚀 Push to your branch and open a **Pull Request**.
 
